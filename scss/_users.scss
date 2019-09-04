@@ -1,0 +1,36 @@
+.users {
+    height: 30%;
+    color: $white;
+    background: url('/img/bg-users__front.webp') no-repeat,
+                url('/img/bg-users__back.webp') no-repeat;
+
+    &-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 12.5em;
+        padding-bottom: 12.93em;
+        &-item {
+            text-align: center;
+            font-family: $MainFont__light;
+            font-size: 1.71em;
+            line-height: 0.769;
+            &:first-child {
+                    margin-left: 0;
+                }
+                &:last-child {
+                    margin-right: 0;
+                }
+            img {
+                margin-bottom: 4.14rem;                
+            }
+            span {
+                font-family: $MainFont;
+                display: block;
+                text-transform: uppercase;
+                font-size: 3.71rem;
+                margin-bottom: 1.78rem;
+            }
+        }
+    }
+}

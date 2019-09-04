@@ -1,0 +1,23 @@
+//Custom variables
+
+$blue: #0a40cf;
+$white: #fff;
+$lightGray: #f3f2f2;
+$darkGray: #808080;
+$blackGray: #333333;
+$bd-color: #dbdada;
+
+* {
+    margin: 0 auto;
+}
+
+body {
+    width: 100vw;
+    font-family: $MainFont;
+    font-size: 14px;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}

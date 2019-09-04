@@ -1,0 +1,65 @@
+.promo {
+    display: flex;
+    text-align: center;
+    background-color: $lightGray;
+
+    h2 {
+        color: $blackGray;
+        font-family: $MainFont__bold;
+        text-transform: uppercase;
+        font-size: 2.143em;
+    }
+
+    h3 {
+        font-size: 1.43em;
+        text-transform: uppercase;
+        margin-bottom: 1.07rem;
+    }
+
+    p {
+        font-family: $TextFont;
+        color: $darkGray;
+        line-height: 2;
+
+        &:first-child {
+            margin: 0 auto;
+            font-size: 1.71rem;
+            text-transform: uppercase;
+            padding-top: 10.71rem;
+        }
+    }
+
+    &-cards {
+        display: flex;
+        align-items: center;
+        margin-top: 6.43em;
+        margin-bottom: 14.357em;
+    }
+
+    &-card {
+        width: 370px;
+        padding: 49px 38px 49px 38px;
+        background-color: $white;
+        border: 1px solid $bd-color;
+
+        p {
+            color: #696969;
+        }
+
+        &__active {
+            color: $white;
+            padding-top: 6.5rem;
+            padding-bottom: 6.57rem;
+            background: #0b4bec;
+            background: linear-gradient(to bottom, #0b4bec, #071d68);
+            background: -moz-linear-gradient(to bottom, #0b4bec, #071d68);
+            background: -ms-linear-gradient(to bottom, #0b4bec, #071d68);
+            margin-left: 2.143em;
+            margin-right: 2.143em;
+
+            p {
+                color: #eeecec;
+            }
+        }
+    }
+}

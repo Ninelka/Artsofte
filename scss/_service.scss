@@ -1,0 +1,67 @@
+.service {
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+    h2 {
+        color: $blackGray;
+        font-family: $MainFont__bold;
+        text-transform: uppercase;
+        font-size: 2.14rem;
+        text-align: left;
+        margin-bottom: 4.29rem;
+    }
+
+    h4 {
+        color: $blackGray;
+        font-size: 1em;
+        font-family: $MainFont__light;
+        padding-top: 1.79rem;
+        padding-bottom: 1.93rem;
+        border: 1px solid $bd-color;
+        margin-top: -0.64rem;
+    }
+
+    p {
+        font-family: $TextFont;
+        color: $darkGray;
+        font-size: 20px;
+        line-height: 2;
+
+        &:first-child {
+            font-size: 1.714em;
+            text-align: left;
+            text-transform: uppercase;
+            padding-top: 10.7rem;
+            padding-bottom: 0;
+        }
+    }
+
+
+
+    &-cards {
+        margin-bottom: 11.2rem;
+        font-size: 1.43em;
+    }
+}
+
+.glide {
+    &__arrow {
+        border: none;
+        box-shadow: none;
+
+        &:hover {
+            border: none;
+        }
+
+        &--left {
+            left: 0;
+            margin-left: -7.143rem;
+        }
+
+        &--right {
+            right: 0;
+            margin-right: -7.143rem;
+        }
+    }
+}
