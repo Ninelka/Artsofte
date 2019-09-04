@@ -1,8 +1,8 @@
 .users {
     height: 30%;
     color: $white;
-    background: url('/img/bg-users__front.webp') no-repeat,
-                url('/img/bg-users__back.webp') no-repeat;
+    background: url('../img/bg-users__front.webp') no-repeat,
+                url('../img/bg-users__back.webp') no-repeat;
 
     &-box {
         display: flex;
